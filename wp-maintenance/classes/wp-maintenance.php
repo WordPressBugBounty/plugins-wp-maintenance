@@ -241,6 +241,7 @@ class WP_maintenance {
             'blogger' => '', 
             'paypal' => '', 
             'email' => '',
+            'tiktok' => '',
         );
         if ( get_option('wp_maintenance_list_socialnetworks', false) == false or get_option('wp_maintenance_list_socialnetworks')=='' ) {
             foreach ($wpmListSocialsNetworksOptions as $keyListNetworksOptions => $optionListNetworksOptions) {
@@ -510,8 +511,6 @@ class WP_maintenance {
 
             wp_register_script('wpm_sticky', WPM_URL.'js/jquery.sticky.js', 'jquery', WPM_VERSION, true);
             wp_enqueue_script('wpm_sticky');
-            
-            wp_enqueue_script( 'emosm-leafletprovidersjs', WPM_URL.'js/jquery.sortable.js', 'jquery', WPM_VERSION, true);
 
             // If you're not including an image upload then you can leave this function call out
             wp_enqueue_media();
