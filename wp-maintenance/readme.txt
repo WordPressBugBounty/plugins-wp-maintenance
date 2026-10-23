@@ -3,7 +3,7 @@ Contributors: Florent73
 Donate link: https://paypal.me/restezconnectes/20/
 Tags: Maintenance, Construction, Launch, Coming soon
 Requires at least: 3.0
-Tested up to: 6.9
+Tested up to: 7
 Stable tag: 6.1.10.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
